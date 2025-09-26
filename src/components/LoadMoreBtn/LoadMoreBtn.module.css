@@ -1,0 +1,16 @@
+.button {
+  display: block;
+  padding: 8px 16px;
+  border: none;
+  margin: 0 auto;
+  border-radius: 6px;
+  background-color: rgb(62, 131, 108);
+  color: aliceblue;
+  font-size: 16px;
+  transition: background-color 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.button:hover {
+  background-color: rgb(240, 253, 255);
+  color: rgb(43, 93, 76);
+  border: solid 1px rgb(43, 93, 76);
+}
